@@ -4,16 +4,16 @@
 # On souhaite créer une application qui permet de gérer des relevés de comptes bancaires. Les données 
 # sont stockées dans des fichiers XML dont le format est le suivant :
 # <?xml version="1.0" encoding="UTF-8"?> 
-# <releve RIB="011112222333344445555666"> 
-# <dateReleve>2021-11-10</dateReleve> 
-#  <solde>14500</solde> 
-#  <operations dateDebut="2021-01-01" dateFin="2021-01-30"> 
-#  <operation type="CREDIT" date="2021-01-01" montant="9000" description="Vers Espèce"></operation> 
-#  <operation type="DEBIT" date="2021-01-11" montant="3400" desciption="Chèque Guichet"></operation> 
-#  <operation type="DEBIT" date="2021-01-15" montant="120" desciption="Prélèvement Assurence"></operation> 
-#  <operation type="CREDIT" date="2021-01-25" montant="70000" desciption="Virement .."></operation> 
-#  </operations> 
-# </releve> 
+<releve RIB="011112222333344445555666"> 
+ <dateReleve>2021-11-10</dateReleve> 
+  <solde>14500</solde> 
+  <operations dateDebut="2021-01-01" dateFin="2021-01-30"> 
+  <operation type="CREDIT" date="2021-01-01" montant="9000" description="Vers Espèce"></operation> 
+  <operation type="DEBIT" date="2021-01-11" montant="3400" desciption="Chèque Guichet"></operation> 
+  <operation type="DEBIT" date="2021-01-15" montant="120" desciption="Prélèvement Assurence"></operation> 
+  <operation type="CREDIT" date="2021-01-25" montant="70000" desciption="Virement .."></operation> 
+  </operations> 
+ </releve> 
 # Travail demandé : 
 # A. Partie Technologie XML : 
 # 1. Elaborer la structure graphique de l’arbre XML
